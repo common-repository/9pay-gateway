@@ -1,0 +1,47 @@
+.mc-preview-qrcode img{
+width: 200px;
+height: auto;
+margin-top: 10px;
+}
+
+.mc_guide_accordion img{
+max-width: 400px;
+}
+
+.mc_guide_accordion .ui-accordion .ui-accordion-content {
+	min-height: 400px;
+}
+
+/*Css setting payment fee*/
+.ninepay-wrapper-atm,
+.ninepay-wrapper-collection,
+.ninepay-wrapper-bnpl,
+.ninepay-wrapper-credit,
+.ninepay-wrapper-wallet {
+	display: contents;
+}
+
+.ninepay-wrapper-atm .forminp,
+.ninepay-wrapper-collection .forminp,
+.ninepay-wrapper-bnpl .forminp,
+.ninepay-wrapper-credit .forminp,
+.ninepay-wrapper-wallet .forminp {
+	display: inline-flex !important;
+}
+
+.ninepay-wrapper-bnpl fieldset,
+.ninepay-wrapper-collection fieldset,
+.ninepay-wrapper-credit fieldset,
+.ninepay-wrapper-atm fieldset,
+.ninepay-wrapper-wallet fieldset {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ninepay-wrapper-bnpl fieldset .description,
+.ninepay-wrapper-collection fieldset .description,
+.ninepay-wrapper-credit fieldset .description,
+.ninepay-wrapper-atm fieldset .description,
+.ninepay-wrapper-wallet fieldset .description {
+	margin-left: 5px;
+}
